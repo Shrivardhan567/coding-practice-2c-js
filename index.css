@@ -1,0 +1,51 @@
+/* Write your code here. */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: "Roboto";
+}
+
+.smallBox {
+  background-color: #fbbf24;
+  height: 10vh;
+  width: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mediumBox {
+  background-color: #38bdf8;
+  height: 20vh;
+  width: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.largeBox {
+  background-color: #ec4899;
+  height: 40vh;
+  width: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  margin: 20px;
+}
+.boxes-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
